@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.bottom_line {
+    border-bottom: 2px solid rgb(78, 77, 77);
+}
+
+.top-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 50px;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.center-menu,
+.right-menu {
+    display: flex;
+    list-style: none;
+}
+
+.right-menu {
+    margin-right: 30px;
+    gap: 10px;
+}
+
+.center-menu li,
+.right-menu li {
+    margin: 0 1rem;
+}
+
+.instagram-icon,
+.facebook-icon a img,
+.github-icon a img,
+.menu-item a img {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.image-label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("../../img/bars-solid.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-btn {
+    cursor: pointer;
+    display: none;
+}
+
+
+.slide-menu {
+    display: none;
+    padding: 0 50px;
+
+}
+
+.slide-menu div a {
+    font-size: 20px;
+}
+
+.slide-menu div a {
+    display: flex;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 280px;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+.left_container {
+    display: block;
+    min-width: 250px;
+    max-width: 250px;
+    height: 100%;
+    background-color: rgba(240, 240, 240, 255);
+}
+
+.top_left {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #333333;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: white;
+}
+
+.profile_box {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/profile_2.png);
+    background-size: cover;
+    background-position: -15px;
+    margin: 20px auto;
+    border: 5px solid white;
+}
+
+.profile_box img {
+    background-color: #000;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.top_left h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top_left p {
+    font-size: 12px;
+    color: rgb(211, 205, 205);
+}
+
+.container {
+    display: flex;
+    padding-left: 50px;
+}
+
+.center_left div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contact_box {
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.contact_box img {
+    width: 30px;
+    height: 30px;
+}
+
+.center_left div img {
+    height: 20px;
+    width: 20px;
+}
+
+.center_left div p {
+    color: gray;
+
+}
+
+.phone_number,
+.facebook_contact,
+.location_contact {
+    margin-left: 30px;
+    margin-top: 5px;
+    gap: 20px;
+}
+
+.bottom_left {
+    background-color: #333333;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.eduhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.eduhead img {
+    width: 30px;
+    height: 30px;
+}
+
+.edudata1 h3,
+.edudata2 h3 {
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.edudata1 p,
+.edudata2 p {
+    font-size: 12px;
+    color: rgb(255, 242, 242);
+    padding-left: 20px;
+}
+
+.right_container {
+    display: flex;
+    width: 100%;
+}
+
+.left_data {
+    width: 50%;
+}
+
+.top_data,
+.buttom_data {
+    margin: 50px 100px;
+    width: 500px;
+}
+
+.header_data {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header_data img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.data_text p {
+    padding-left: 30px;
+    color: gray;
+}
+
+.buttom_data div img {
+    border-radius: 50%;
+    border: 3px solid #333333;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.progress-container {
+    width: 400px;
+    max-width: 400px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+    position: absolute;
+    left: 520px;
+}
+
+.progress-bar {
+    width: 0px;
+    height: 20px;
+    background-color: #f11f0c;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.python div div,
+.pyqt div div {
+    width: 320;
+}
+
+.java div div {
+    width: 200;
+}
+
+.c div div {
+    width: 200;
+}
+
+.ros div div {
+    width: 280;
+}
+
+.arduino div div {
+    width: 370;
+}
+
+.html div div,
+.css div div,
+.js div div {
+    width: 100;
+}
+
+.right_data div{
+    margin-left: 0;
+}
+
+.top_data ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.ul_list{
+    padding-left: 40px;
+    color: #333333;
+}
+.header_right{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.header_right img{
+    width: 30px;
+    height: 30px;
+}
+.job{
+    margin-top: 50px;
+}
+.data_text_right{
+    margin-bottom: 20px;
+}
+.data_text_right h3{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.data_text_right p{
+    color: gray;
+    padding-left: 40px;
+    font-size: 16px;
+}
+#second{
+    font-size: 12px;
+}
+@media (max-width: 992px) {
+
+    .center-menu,
+    .github-icon,
+    .facebook-icon,
+    .instagram-icon {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .right-menu {
+        margin-right: 0px;
+        gap: 40px;
+    }
+
+    .slide-menu {
+        display: block;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.3s ease;
+    }
+
+    #image-checkbox {
+        display: none;
+    }
+
+    #image-checkbox:checked+.image-label~.slide-menu {
+        height: 300px;
+        border: 1px solid black;
+    }
+
+    #image-checkbox:not(:checked)+.image-label~.slide-menu {
+        height: 0px;
+    }
+}
